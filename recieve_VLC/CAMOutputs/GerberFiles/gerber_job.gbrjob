@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-03-12T07:58:02Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "tia_LTC"
+        },
+        "Owner": "Izzat Pratama <izzatpratama@icloud.com>",
+        "Size": {
+            "X": 43.8712,
+            "Y": 33.2996
+        }
+    }
+}
