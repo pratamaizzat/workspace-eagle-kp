@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -34,7 +34,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -1450,60 +1450,77 @@ Metric Code Size 1608</description>
 <wire x1="-1.85" y1="1.5" x2="-0.65" y2="1.5" width="0.2" layer="21"/>
 </package>
 <package name="SOIC127P600X175-8N">
-<description>&lt;b&gt;SOIC127P600X175-8N-ren1&lt;/b&gt;&lt;br&gt;
+<description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-2.3622" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="2" x="-2.3622" y="0.635" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="3" x="-2.3622" y="-0.635" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="4" x="-2.3622" y="-1.905" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="5" x="2.3622" y="-1.905" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="6" x="2.3622" y="-0.635" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="7" x="2.3622" y="0.635" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="8" x="2.3622" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
-<text x="-4.5212" y="2.8956" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-5.5626" y="-4.9022" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.9558" y1="1.651" x2="-1.9558" y2="2.159" width="0.1524" layer="51"/>
-<wire x1="-1.9558" y1="2.159" x2="-2.9972" y2="2.159" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="2.159" x2="-2.9972" y2="1.651" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="1.651" x2="-1.9558" y2="1.651" width="0.1524" layer="51"/>
-<wire x1="-1.9558" y1="0.381" x2="-1.9558" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-1.9558" y1="0.889" x2="-2.9972" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="0.889" x2="-2.9972" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="0.381" x2="-1.9558" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="-1.9558" y1="-0.889" x2="-1.9558" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-1.9558" y1="-0.381" x2="-2.9972" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="-0.381" x2="-2.9972" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="-0.889" x2="-1.9558" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="-1.9558" y1="-2.159" x2="-1.9558" y2="-1.651" width="0.1524" layer="51"/>
-<wire x1="-1.9558" y1="-1.651" x2="-2.9972" y2="-1.651" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="-1.651" x2="-2.9972" y2="-2.159" width="0.1524" layer="51"/>
-<wire x1="-2.9972" y1="-2.159" x2="-1.9558" y2="-2.159" width="0.1524" layer="51"/>
-<wire x1="1.9558" y1="-1.651" x2="1.9558" y2="-2.159" width="0.1524" layer="51"/>
-<wire x1="1.9558" y1="-2.159" x2="2.9972" y2="-2.159" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="-2.159" x2="2.9972" y2="-1.651" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="-1.651" x2="1.9558" y2="-1.651" width="0.1524" layer="51"/>
-<wire x1="1.9558" y1="-0.381" x2="1.9558" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="1.9558" y1="-0.889" x2="2.9972" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="-0.889" x2="2.9972" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="-0.381" x2="1.9558" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="1.9558" y1="0.889" x2="1.9558" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="1.9558" y1="0.381" x2="2.9972" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="0.381" x2="2.9972" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="0.889" x2="1.9558" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="1.9558" y1="2.159" x2="1.9558" y2="1.651" width="0.1524" layer="51"/>
-<wire x1="1.9558" y1="1.651" x2="2.9972" y2="1.651" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="1.651" x2="2.9972" y2="2.159" width="0.1524" layer="51"/>
-<wire x1="2.9972" y1="2.159" x2="1.9558" y2="2.159" width="0.1524" layer="51"/>
-<wire x1="-1.9558" y1="-2.4384" x2="1.9558" y2="-2.4384" width="0.1524" layer="51"/>
-<wire x1="1.9558" y1="-2.4384" x2="1.9558" y2="2.4384" width="0.1524" layer="51"/>
-<wire x1="1.9558" y1="2.4384" x2="0.3048" y2="2.4384" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="2.4384" x2="-0.3048" y2="2.4384" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="2.4384" x2="-1.9558" y2="2.4384" width="0.1524" layer="51"/>
-<wire x1="-1.9558" y1="2.4384" x2="-1.9558" y2="-2.4384" width="0.1524" layer="51"/>
-<wire x1="-1.1684" y1="-2.4384" x2="1.1684" y2="-2.4384" width="0.1524" layer="21"/>
-<wire x1="1.1684" y1="2.4384" x2="0.3048" y2="2.4384" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="2.4384" x2="-0.3048" y2="2.4384" width="0.1524" layer="21"/>
-<wire x1="-0.3048" y1="2.4384" x2="-1.1684" y2="2.4384" width="0.1524" layer="21"/>
+<smd name="1" x="-2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="2" x="-2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="3" x="-2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="4" x="-2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="5" x="2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="6" x="2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="7" x="2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="8" x="2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="2.75" x2="3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="2.75" x2="3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-2.75" x2="-3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-2.75" x2="-3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="2.45" x2="1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="2.45" x2="1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-2.45" x2="-1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-2.45" x2="-1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="-3.475" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
+</package>
+<package name="SOIC127P600X175-8N@1">
+<description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="2" x="-2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="3" x="-2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="4" x="-2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="5" x="2.712" y="-1.905" dx="1.525" dy="0.65" layer="1"/>
+<smd name="6" x="2.712" y="-0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="7" x="2.712" y="0.635" dx="1.525" dy="0.65" layer="1"/>
+<smd name="8" x="2.712" y="1.905" dx="1.525" dy="0.65" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.725" y1="2.75" x2="3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="2.75" x2="3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="3.725" y1="-2.75" x2="-3.725" y2="-2.75" width="0.05" layer="51"/>
+<wire x1="-3.725" y1="-2.75" x2="-3.725" y2="2.75" width="0.05" layer="51"/>
+<wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="2.45" x2="1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="1.95" y1="-2.45" x2="-1.95" y2="-2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="-2.45" x2="-1.95" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.95" y1="1.18" x2="-0.68" y2="2.45" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="2.45" x2="1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="2.45" x2="1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="1.6" y1="-2.45" x2="-1.6" y2="-2.45" width="0.2" layer="21"/>
+<wire x1="-1.6" y1="-2.45" x2="-1.6" y2="2.45" width="0.2" layer="21"/>
+<wire x1="-3.475" y1="2.58" x2="-1.95" y2="2.58" width="0.2" layer="21"/>
+</package>
+<package name="VBPW34SR">
+<description>&lt;b&gt;VBPW34SR&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.575" y="0" dx="1.8" dy="1.75" layer="1" rot="R90"/>
+<smd name="2" x="3.575" y="0" dx="1.8" dy="1.75" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.2" y1="-1.95" x2="2.2" y2="-1.95" width="0.2" layer="51"/>
+<wire x1="2.2" y1="-1.95" x2="2.2" y2="1.95" width="0.2" layer="51"/>
+<wire x1="2.2" y1="1.95" x2="-2.2" y2="1.95" width="0.2" layer="51"/>
+<wire x1="-2.2" y1="1.95" x2="-2.2" y2="-1.95" width="0.2" layer="51"/>
+<wire x1="-2.2" y1="1.95" x2="2.2" y2="1.95" width="0.1" layer="21"/>
+<wire x1="2.2" y1="1.95" x2="2.2" y2="-1.95" width="0.1" layer="21"/>
+<wire x1="2.2" y1="-1.95" x2="-2.2" y2="-1.95" width="0.1" layer="21"/>
+<wire x1="-2.2" y1="-1.95" x2="-2.2" y2="1.95" width="0.1" layer="21"/>
+<circle x="-3.575" y="-1.5" radius="0.1" width="0.2" layer="25"/>
 </package>
 </packages>
 </library>
@@ -2749,71 +2766,6 @@ chip</description>
 </package3d>
 </packages3d>
 </library>
-<library name="Texas Instruments_By_element14_Batch_1">
-<description>Developed by element14 :&lt;br&gt;
-element14 CAD Library consolidation.ulp
-at 30/07/2012 17:45:58</description>
-<packages>
-<package name="SOIC127P600X175-8N">
-<smd name="1" x="-2.4638" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="2" x="-2.4638" y="0.635" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="3" x="-2.4638" y="-0.635" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="4" x="-2.4638" y="-1.905" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="5" x="2.4638" y="-1.905" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="6" x="2.4638" y="-0.635" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="7" x="2.4638" y="0.635" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="8" x="2.4638" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
-<wire x1="-2.0066" y1="1.651" x2="-2.0066" y2="2.159" width="0.1524" layer="51"/>
-<wire x1="-2.0066" y1="2.159" x2="-3.0988" y2="2.159" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="2.159" x2="-3.0988" y2="1.651" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="1.651" x2="-2.0066" y2="1.651" width="0.1524" layer="51"/>
-<wire x1="-2.0066" y1="0.381" x2="-2.0066" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-2.0066" y1="0.889" x2="-3.0988" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="0.889" x2="-3.0988" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="0.381" x2="-2.0066" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="-2.0066" y1="-0.889" x2="-2.0066" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-2.0066" y1="-0.381" x2="-3.0988" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="-0.381" x2="-3.0988" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="-0.889" x2="-2.0066" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="-2.0066" y1="-2.159" x2="-2.0066" y2="-1.651" width="0.1524" layer="51"/>
-<wire x1="-2.0066" y1="-1.651" x2="-3.0988" y2="-1.651" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="-1.651" x2="-3.0988" y2="-2.159" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="-2.159" x2="-2.0066" y2="-2.159" width="0.1524" layer="51"/>
-<wire x1="2.0066" y1="-1.651" x2="2.0066" y2="-2.159" width="0.1524" layer="51"/>
-<wire x1="2.0066" y1="-2.159" x2="3.0988" y2="-2.159" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="-2.159" x2="3.0988" y2="-1.651" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="-1.651" x2="2.0066" y2="-1.651" width="0.1524" layer="51"/>
-<wire x1="2.0066" y1="-0.381" x2="2.0066" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="2.0066" y1="-0.889" x2="3.0988" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="-0.889" x2="3.0988" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="-0.381" x2="2.0066" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="2.0066" y1="0.889" x2="2.0066" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="2.0066" y1="0.381" x2="3.0988" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="0.381" x2="3.0988" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="0.889" x2="2.0066" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="2.0066" y1="2.159" x2="2.0066" y2="1.651" width="0.1524" layer="51"/>
-<wire x1="2.0066" y1="1.651" x2="3.0988" y2="1.651" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="1.651" x2="3.0988" y2="2.159" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="2.159" x2="2.0066" y2="2.159" width="0.1524" layer="51"/>
-<wire x1="-2.0066" y1="-2.4892" x2="2.0066" y2="-2.4892" width="0.1524" layer="51"/>
-<wire x1="2.0066" y1="-2.4892" x2="2.0066" y2="2.4892" width="0.1524" layer="51"/>
-<wire x1="2.0066" y1="2.4892" x2="0.3048" y2="2.4892" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="2.4892" x2="-0.3048" y2="2.4892" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="2.4892" x2="-2.0066" y2="2.4892" width="0.1524" layer="51"/>
-<wire x1="-2.0066" y1="2.4892" x2="-2.0066" y2="-2.4892" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="2.4892" x2="-0.3048" y2="2.4892" width="0" layer="51" curve="-180"/>
-<text x="-3.302" y="2.3368" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<wire x1="-1.3716" y1="-2.4892" x2="1.3716" y2="-2.4892" width="0.1524" layer="21"/>
-<wire x1="1.3716" y1="2.4892" x2="0.3048" y2="2.4892" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="2.4892" x2="-0.3048" y2="2.4892" width="0.1524" layer="21"/>
-<wire x1="-0.3048" y1="2.4892" x2="-1.3716" y2="2.4892" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="2.4892" x2="-0.3048" y2="2.4892" width="0" layer="21" curve="-180"/>
-<text x="-3.302" y="2.3368" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-4.6736" y="3.3782" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.7404" y="-5.2324" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 <library name="con-coax" urn="urn:adsk.eagle:library:133">
 <description>&lt;b&gt;Coax Connectors&lt;/b&gt;&lt;p&gt;
 Radiall  and M/A COM.&lt;p&gt;
@@ -3368,15 +3320,6 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-48.26" y="50.8" size="1.27" layer="27" align="center"/>
 </element>
-<element name="U1" library="Texas Instruments_By_element14_Batch_1" package="SOIC127P600X175-8N" value="OPA656U" x="-49.53" y="6.35" smashed="yes">
-<attribute name="MPN" value="OPA656U" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-54.2036" y="9.7282" size="2.0828" layer="25" ratio="10" rot="SR0"/>
-<attribute name="OC_FARNELL" value="1212322" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="75C5137" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="SOIC-8" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SUPPLIER" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-55.2704" y="1.1176" size="2.0828" layer="27" ratio="10" rot="SR0"/>
-</element>
 <element name="X1" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="BU-SMA-V" package3d_urn="urn:adsk.eagle:package:6211/1" value="BU-SMA-V" x="-36.83" y="6.35" smashed="yes">
 <attribute name="MF" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -3554,14 +3497,186 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-13210" x="-83.82" y="-95.25" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-83.82" y="-96.012" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
+<element name="IC7" library="SamacSys_Parts" package="SOIC127P600X175-8N@1" value="OPA656U" x="-82.55" y="-100.33" smashed="yes">
+<attribute name="DESCRIPTION" value="OPA656UG4, Operational Amplifier Voltage Feedback, 230MHz, 8-Pin SOIC" x="-82.55" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.75mm" x="-82.55" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-82.55" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="OPA656U" x="-82.55" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-OPA656U" x="-82.55" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=595-OPA656U" x="-82.55" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-82.423" y="-105.664" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="6604368P" x="-82.55" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6604368P" x="-82.55" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-82.55" y="-104.14" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C26" library="SamacSys_Parts" package="CAPC1608X90N" value="06033C104KAZ2A" x="-94.615" y="-109.728" smashed="yes">
+<attribute name="DESCRIPTION" value="AVX 0603 Standard 100nF Ceramic Multilayer Capacitor, 25 V dc, +125" x="-94.615" y="-109.728" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-94.615" y="-109.728" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="-94.615" y="-109.728" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="06033C104KAZ2A" x="-94.615" y="-109.728" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-06033C104KAZ2A" x="-94.615" y="-109.728" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-06033C104KAZ2A" x="-94.615" y="-109.728" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-95.25" y="-105.156" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1356596" x="-94.615" y="-109.728" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/1356596" x="-94.615" y="-109.728" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-94.615" y="-110.998" size="1.27" layer="27" align="center"/>
+</element>
+<element name="C27" library="SamacSys_Parts" package="CAPC1608X90N" value="06033C104KAZ2A" x="-90.17" y="-113.03" smashed="yes">
+<attribute name="DESCRIPTION" value="AVX 0603 Standard 100nF Ceramic Multilayer Capacitor, 25 V dc, +125" x="-90.17" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-90.17" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="-90.17" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="06033C104KAZ2A" x="-90.17" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-06033C104KAZ2A" x="-90.17" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-06033C104KAZ2A" x="-90.17" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-90.17" y="-111.76" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1356596" x="-90.17" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/1356596" x="-90.17" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-90.17" y="-114.3" size="1.27" layer="27" align="center"/>
+</element>
+<element name="D10" library="SamacSys_Parts" package="VBPW34SR" value="VBPW34SR" x="-92.71" y="-121.92" smashed="yes">
+<attribute name="DESCRIPTION" value="Vishay VBPW34SR IR + Visible Light Si Photodiode, +/-65 , SMD Reverse Gullwing" x="-92.71" y="-121.92" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-92.71" y="-121.92" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-92.71" y="-121.92" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="VBPW34SR" x="-92.71" y="-121.92" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="782-VBPW34SR" x="-92.71" y="-121.92" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=782-VBPW34SR" x="-92.71" y="-121.92" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-92.71" y="-120.7008" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="9195813" x="-92.71" y="-121.92" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/9195813" x="-92.71" y="-121.92" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-92.71" y="-121.92" size="1.27" layer="27" align="center"/>
+</element>
+<element name="D11" library="SamacSys_Parts" package="VBPW34SR" value="VBPW34SR" x="-92.71" y="-127" smashed="yes">
+<attribute name="DESCRIPTION" value="Vishay VBPW34SR IR + Visible Light Si Photodiode, +/-65 , SMD Reverse Gullwing" x="-92.71" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-92.71" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-92.71" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="VBPW34SR" x="-92.71" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="782-VBPW34SR" x="-92.71" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=782-VBPW34SR" x="-92.71" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-92.6846" y="-125.7554" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="9195813" x="-92.71" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/9195813" x="-92.71" y="-127" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-92.71" y="-127" size="1.27" layer="27" align="center"/>
+</element>
+<element name="D12" library="SamacSys_Parts" package="VBPW34SR" value="VBPW34SR" x="-92.71" y="-132.08" smashed="yes">
+<attribute name="DESCRIPTION" value="Vishay VBPW34SR IR + Visible Light Si Photodiode, +/-65 , SMD Reverse Gullwing" x="-92.71" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-92.71" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-92.71" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="VBPW34SR" x="-92.71" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="782-VBPW34SR" x="-92.71" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=782-VBPW34SR" x="-92.71" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-92.71" y="-130.8608" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="9195813" x="-92.71" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/9195813" x="-92.71" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-92.71" y="-132.08" size="1.27" layer="27" align="center"/>
+</element>
+<element name="D13" library="SamacSys_Parts" package="VBPW34SR" value="VBPW34SR" x="-92.71" y="-137.16" smashed="yes">
+<attribute name="DESCRIPTION" value="Vishay VBPW34SR IR + Visible Light Si Photodiode, +/-65 , SMD Reverse Gullwing" x="-92.71" y="-137.16" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-92.71" y="-137.16" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-92.71" y="-137.16" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="VBPW34SR" x="-92.71" y="-137.16" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="782-VBPW34SR" x="-92.71" y="-137.16" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=782-VBPW34SR" x="-92.71" y="-137.16" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-92.71" y="-135.9662" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="9195813" x="-92.71" y="-137.16" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/9195813" x="-92.71" y="-137.16" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-92.71" y="-137.16" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R8" library="SamacSys_Parts" package="RESC2012X50N" value="RG2012P-275-B-T5" x="-87.4522" y="-98.7806" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 1/4W 2.7M OHM .1% AEC Q200 Qualified" x="-87.4522" y="-98.7806" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.5mm" x="-87.4522" y="-98.7806" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Susumu" x="-87.4522" y="-98.7806" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RG2012P-275-B-T5" x="-87.4522" y="-98.7806" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="754-RG2012P-275B-T5" x="-87.4522" y="-98.7806" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=754-RG2012P-275B-T5" x="-87.4522" y="-98.7806" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-89.2302" y="-98.6536" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="-87.4522" y="-98.7806" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="-87.4522" y="-98.7806" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="-87.4522" y="-98.7806" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="C20" library="SamacSys_Parts" package="CAPC1608X90N" value="06033C104KAZ2A" x="-89.2048" y="-98.933" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="AVX 0603 Standard 100nF Ceramic Multilayer Capacitor, 25 V dc, +125" x="-89.2048" y="-98.933" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-89.2048" y="-98.933" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="-89.2048" y="-98.933" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="06033C104KAZ2A" x="-89.2048" y="-98.933" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-06033C104KAZ2A" x="-89.2048" y="-98.933" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-06033C104KAZ2A" x="-89.2048" y="-98.933" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-90.8558" y="-98.933" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1356596" x="-89.2048" y="-98.933" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/1356596" x="-89.2048" y="-98.933" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="-89.2048" y="-98.933" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="IC8" library="SamacSys_Parts" package="SOIC127P600X175-8N" value="TC7662BEOA" x="-99.06" y="-156.21" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70045795" x="-101.6" y="-156.21" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/microchip-technology-inc-tc7662beoa/70045795/" x="-101.6" y="-156.21" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="DC-TO-DC VOLTAGE CONVERTER" x="-101.6" y="-156.21" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-101.6" y="-156.21" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Microchip" x="-101.6" y="-156.21" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TC7662BEOA" x="-101.6" y="-156.21" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="579-TC7662BEOA" x="-101.6" y="-156.21" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=579-TC7662BEOA" x="-101.6" y="-156.21" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-99.06" y="-156.21" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="2509532389" x="-101.6" y="-156.21" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/2509532389" x="-101.6" y="-156.21" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-99.06" y="-156.21" size="1.27" layer="27" align="center"/>
+</element>
+<element name="INPUT656U" library="SparkFun-Connectors" package="1X02" value="" x="-102.87" y="-161.29" smashed="yes">
+<attribute name="NAME" x="-104.14" y="-159.893" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="-104.14" y="-163.322" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="C28" library="SparkFun-Capacitors" package="0603-POLAR" value="10uF" x="-96.52" y="-161.29" smashed="yes">
+<attribute name="NAME" x="-96.52" y="-160.528" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-13210" x="-105.41" y="-165.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-96.52" y="-162.052" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C29" library="SparkFun-Capacitors" package="0603-POLAR" value="10uF" x="-102.87" y="-165.1" smashed="yes">
+<attribute name="NAME" x="-102.87" y="-164.338" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-13210" x="-105.41" y="-168.91" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-102.87" y="-165.862" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C30" library="SparkFun-Capacitors" package="0603-POLAR" value="10uF" x="-87.122" y="-105.029" smashed="yes" rot="R270">
+<attribute name="NAME" x="-86.36" y="-105.029" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-13210" x="-87.122" y="-105.029" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-87.884" y="-105.029" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+</element>
+<element name="C31" library="SamacSys_Parts" package="CAPC1608X90N" value="06033C104KAZ2A" x="-85.217" y="-104.8024" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="AVX 0603 Standard 100nF Ceramic Multilayer Capacitor, 25 V dc, +125" x="-85.217" y="-108.6124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-85.217" y="-108.6124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="-85.217" y="-108.6124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="06033C104KAZ2A" x="-85.217" y="-108.6124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-06033C104KAZ2A" x="-85.217" y="-108.6124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-06033C104KAZ2A" x="-85.217" y="-108.6124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-86.487" y="-104.8024" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1356596" x="-85.217" y="-108.6124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/1356596" x="-85.217" y="-108.6124" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="-83.947" y="-104.8024" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="C32" library="SparkFun-Capacitors" package="0603-POLAR" value="10uF" x="-75.9323" y="-96.012" smashed="yes" rot="R180">
+<attribute name="NAME" x="-75.9323" y="-96.774" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-13210" x="-75.9323" y="-96.012" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="-75.9323" y="-95.25" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+</element>
+<element name="C33" library="SamacSys_Parts" package="CAPC1608X90N" value="06033C104KAZ2A" x="-76.3589" y="-97.663" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="AVX 0603 Standard 100nF Ceramic Multilayer Capacitor, 25 V dc, +125" x="-72.5489" y="-97.663" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="-72.5489" y="-97.663" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="-72.5489" y="-97.663" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="06033C104KAZ2A" x="-72.5489" y="-97.663" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-06033C104KAZ2A" x="-72.5489" y="-97.663" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-06033C104KAZ2A" x="-72.5489" y="-97.663" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-76.2319" y="-99.441" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1356596" x="-72.5489" y="-97.663" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/1356596" x="-72.5489" y="-97.663" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="-76.2319" y="-96.139" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="OUT656U" library="SparkFun-Connectors" package="1X02" value="" x="-103.4542" y="-168.9862" smashed="yes">
+<attribute name="NAME" x="-104.7242" y="-167.5892" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="-104.7242" y="-171.0182" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="JP6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1" value="JUMPER-SMT_2_NC_TRACE_NO-SILK" x="-107.0356" y="-168.402" smashed="yes">
+<attribute name="NAME" x="-107.0356" y="-167.259" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="-107.0356" y="-169.545" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
 </elements>
 <signals>
-<signal name="+VS">
-<contactref element="U1" pad="7"/>
-</signal>
-<signal name="-VS">
-<contactref element="U1" pad="4"/>
-</signal>
 <signal name="-IN">
 <contactref element="IC1" pad="4"/>
 <contactref element="R1" pad="1"/>
@@ -3602,8 +3717,6 @@ design rules under a new name.</description>
 <contactref element="X1" pad="4"/>
 <contactref element="X1" pad="5"/>
 <contactref element="J2" pad="1"/>
-<contactref element="IC5" pad="2"/>
-<wire x1="-39.3799" y1="3.8001" x2="-52.05" y2="-6.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-39.3799" y1="8.8999" x2="-39.3799" y2="3.8001" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.2801" y1="3.8001" x2="-39.3799" y2="3.8001" width="0" layer="19" extent="1-1"/>
 <wire x1="-34.2801" y1="8.8999" x2="-39.3799" y2="8.8999" width="0" layer="19" extent="1-1"/>
@@ -3687,20 +3800,6 @@ design rules under a new name.</description>
 <contactref element="C8" pad="1"/>
 <contactref element="C9" pad="-"/>
 <contactref element="IC2" pad="4"/>
-<contactref element="IC4" pad="2"/>
-<contactref element="IC4" pad="3"/>
-<contactref element="C14" pad="2"/>
-<contactref element="IC6" pad="5"/>
-<contactref element="C23" pad="-"/>
-<contactref element="C24" pad="2"/>
-<contactref element="C19" pad="-"/>
-<wire x1="-69.05" y1="-78.74" x2="-84.67" y2="-95.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-71.97" y1="-74.93" x2="-69.05" y2="-78.74" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.6589" y1="-28.575" x2="-71.97" y2="-74.93" width="0" layer="19" extent="1-1"/>
-<wire x1="-40.2211" y1="-10.16" x2="-38.6589" y2="-28.575" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.78" y1="-3.49" x2="-40.2211" y2="-10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.78" y1="-2.54" x2="-50.78" y2="-3.49" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.56" y1="2.54" x2="-40.2211" y2="-10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.24" y1="33.02" x2="-25.56" y2="2.54" width="0" layer="19" extent="1-1"/>
 <wire x1="-36.735" y1="41.91" x2="-15.24" y2="33.02" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.975" y1="50.8" x2="-36.735" y2="41.91" width="0" layer="19" extent="1-1"/>
@@ -3759,6 +3858,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="V_BIAS">
 <contactref element="BIAS_CONN" pad="2"/>
+<contactref element="D8" pad="1"/>
+<contactref element="D9" pad="1"/>
+<contactref element="D7" pad="1"/>
+<contactref element="D6" pad="1"/>
+<wire x1="-57.15" y1="27.94" x2="-72.39" y2="-82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.37" y1="26.67" x2="-57.15" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.21" y1="26.67" x2="-39.37" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.05" y1="26.67" x2="-29.21" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V+">
 <contactref element="IC3" pad="6"/>
@@ -3803,20 +3910,20 @@ design rules under a new name.</description>
 <wire x1="-67.73" y1="-67.31" x2="-65.24" y2="-71.12" width="0" layer="19" extent="1-1"/>
 <wire x1="-68.58" y1="-57.15" x2="-67.73" y2="-67.31" width="0" layer="19" extent="1-1"/>
 <wire x1="-68.58" y1="-48.26" x2="-68.58" y2="-57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="-40.2211" y1="-17.78" x2="-68.58" y2="-48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.3091" y1="-24.765" x2="-68.58" y2="-48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.2211" y1="-17.78" x2="-38.3091" y2="-24.765" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.05" y1="-7.3" x2="-40.2211" y2="-17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.05" y1="-5.4" x2="-52.05" y2="-7.3" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.6589" y1="-24.765" x2="-40.2211" y2="-17.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="IC6" pad="2"/>
 <contactref element="C25" pad="+"/>
-<wire x1="-43.3833" y1="-26.035" x2="-82.97" y2="-91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.7331" y1="-26.035" x2="-82.97" y2="-91.44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="IC6" pad="4"/>
 <contactref element="C25" pad="-"/>
-<wire x1="-43.3833" y1="-28.575" x2="-84.67" y2="-91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.7331" y1="-28.575" x2="-84.67" y2="-91.44" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND2">
 <contactref element="INPUT" pad="2"/>
@@ -3836,6 +3943,7 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="3"/>
 <contactref element="OUTPUT_LTC" pad="1"/>
 <contactref element="C19" pad="+"/>
+<contactref element="IC5" pad="2"/>
 <wire x1="-85.09" y1="-87.63" x2="-82.97" y2="-95.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-69.85" y1="-82.55" x2="-85.09" y2="-87.63" width="0" layer="19" extent="1-1"/>
 <wire x1="-70.65" y1="-78.74" x2="-69.85" y2="-82.55" width="0" layer="19" extent="1-1"/>
@@ -3844,23 +3952,15 @@ design rules under a new name.</description>
 <wire x1="-69.43" y1="-67.31" x2="-66.84" y2="-71.12" width="0" layer="19" extent="1-1"/>
 <wire x1="-63.5" y1="-62.23" x2="-69.43" y2="-67.31" width="0" layer="19" extent="1-1"/>
 <wire x1="-66.04" y1="-48.26" x2="-63.5" y2="-62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.8211" y1="-20.32" x2="-66.04" y2="-48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.7331" y1="-27.305" x2="-66.04" y2="-48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.8211" y1="-20.32" x2="-43.7331" y2="-27.305" width="0" layer="19" extent="1-1"/>
 <wire x1="-41.8211" y1="-17.78" x2="-41.8211" y2="-20.32" width="0" layer="19" extent="1-1"/>
 <wire x1="-41.8211" y1="-15.24" x2="-41.8211" y2="-17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="-41.8211" y1="-12.7" x2="-41.8211" y2="-15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-41.8211" y1="-10.16" x2="-41.8211" y2="-12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.78" y1="-1.59" x2="-41.8211" y2="-10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="-43.3833" y1="-27.305" x2="-41.8211" y2="-20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.05" y1="-6.35" x2="-41.8211" y2="-10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.78" y1="-1.59" x2="-52.05" y2="-6.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.67" y1="46.04" x2="-50.78" y2="-1.59" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$13">
-<contactref element="D8" pad="1"/>
-<contactref element="D9" pad="1"/>
-<contactref element="D7" pad="1"/>
-<contactref element="D6" pad="1"/>
-<wire x1="-39.37" y1="26.67" x2="-57.15" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="-29.21" y1="26.67" x2="-39.37" y2="26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.05" y1="26.67" x2="-29.21" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="IC3" pad="4"/>
@@ -3879,6 +3979,115 @@ design rules under a new name.</description>
 </signal>
 <signal name="FILTER_IN">
 <contactref element="JP5" pad="2"/>
+</signal>
+<signal name="-5VLTC">
+<contactref element="IC6" pad="5"/>
+<contactref element="C19" pad="-"/>
+<contactref element="C23" pad="-"/>
+<contactref element="C24" pad="2"/>
+<contactref element="IC4" pad="2"/>
+<contactref element="IC4" pad="3"/>
+<contactref element="C14" pad="2"/>
+<wire x1="-69.05" y1="-78.74" x2="-84.67" y2="-95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.97" y1="-74.93" x2="-69.05" y2="-78.74" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.3091" y1="-28.575" x2="-71.97" y2="-74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.2211" y1="-10.16" x2="-38.3091" y2="-28.575" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.78" y1="-3.49" x2="-40.2211" y2="-10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.78" y1="-2.54" x2="-50.78" y2="-3.49" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND3">
+<contactref element="IC7" pad="3"/>
+<contactref element="C27" pad="1"/>
+<contactref element="C26" pad="1"/>
+<contactref element="IC8" pad="3"/>
+<contactref element="C29" pad="+"/>
+<contactref element="INPUT656U" pad="2"/>
+<contactref element="C30" pad="+"/>
+<contactref element="C31" pad="1"/>
+<contactref element="C33" pad="1"/>
+<contactref element="C32" pad="-"/>
+<contactref element="OUT656U" pad="2"/>
+<wire x1="-90.97" y1="-113.03" x2="-95.415" y2="-109.728" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.122" y1="-105.879" x2="-90.97" y2="-113.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.217" y1="-105.6024" x2="-87.122" y2="-105.879" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.262" y1="-100.965" x2="-85.217" y2="-105.6024" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.5589" y1="-97.663" x2="-85.262" y2="-100.965" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.0823" y1="-96.012" x2="-75.5589" y2="-97.663" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.772" y1="-156.845" x2="-90.97" y2="-113.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.33" y1="-161.29" x2="-101.772" y2="-156.845" width="0" layer="19" extent="1-1"/>
+<wire x1="-102.02" y1="-165.1" x2="-100.33" y2="-161.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.9142" y1="-168.9862" x2="-102.02" y2="-165.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="V_BIAS656U">
+<contactref element="D10" pad="1"/>
+<contactref element="D11" pad="1"/>
+<contactref element="D12" pad="1"/>
+<contactref element="D13" pad="1"/>
+<wire x1="-96.285" y1="-132.08" x2="-96.285" y2="-137.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-96.285" y1="-127" x2="-96.285" y2="-132.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-96.285" y1="-121.92" x2="-96.285" y2="-127" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="R8" pad="1"/>
+<contactref element="C20" pad="1"/>
+<contactref element="D13" pad="2"/>
+<contactref element="D12" pad="2"/>
+<contactref element="D11" pad="2"/>
+<contactref element="IC7" pad="2"/>
+<contactref element="C27" pad="2"/>
+<contactref element="C26" pad="2"/>
+<contactref element="D10" pad="2"/>
+<wire x1="-89.135" y1="-132.08" x2="-89.135" y2="-137.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.135" y1="-127" x2="-89.135" y2="-132.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.135" y1="-121.92" x2="-89.135" y2="-127" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.37" y1="-113.03" x2="-89.135" y2="-121.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-93.815" y1="-109.728" x2="-89.37" y2="-113.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.2048" y1="-99.733" x2="-93.815" y2="-109.728" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.4522" y1="-99.7306" x2="-89.2048" y2="-99.733" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.262" y1="-99.695" x2="-87.4522" y2="-99.7306" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$13">
+<contactref element="C20" pad="2"/>
+<contactref element="R8" pad="2"/>
+<contactref element="IC7" pad="6"/>
+<contactref element="OUT656U" pad="1"/>
+<contactref element="JP6" pad="1"/>
+<wire x1="-87.4522" y1="-97.8306" x2="-89.2048" y2="-98.133" width="0" layer="19" extent="1-1"/>
+<wire x1="-79.838" y1="-100.965" x2="-87.4522" y2="-97.8306" width="0" layer="19" extent="1-1"/>
+<wire x1="-103.4542" y1="-168.9862" x2="-79.838" y2="-100.965" width="0" layer="19" extent="1-1"/>
+<wire x1="-107.5563" y1="-168.402" x2="-103.4542" y2="-168.9862" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="IC8" pad="2"/>
+<contactref element="C28" pad="+"/>
+<wire x1="-95.67" y1="-161.29" x2="-101.772" y2="-155.575" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="IC8" pad="4"/>
+<contactref element="C28" pad="-"/>
+<wire x1="-97.37" y1="-161.29" x2="-101.772" y2="-158.115" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+V656U">
+<contactref element="INPUT656U" pad="1"/>
+<contactref element="IC8" pad="8"/>
+<contactref element="IC7" pad="7"/>
+<contactref element="C32" pad="+"/>
+<contactref element="C33" pad="2"/>
+<wire x1="-102.87" y1="-161.29" x2="-96.348" y2="-154.305" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.7823" y1="-96.012" x2="-102.87" y2="-161.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-77.1589" y1="-97.663" x2="-76.7823" y2="-96.012" width="0" layer="19" extent="1-1"/>
+<wire x1="-79.838" y1="-99.695" x2="-96.348" y2="-154.305" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="-V656U">
+<contactref element="IC8" pad="5"/>
+<contactref element="C29" pad="-"/>
+<contactref element="IC7" pad="4"/>
+<contactref element="C30" pad="-"/>
+<contactref element="C31" pad="2"/>
+<wire x1="-103.72" y1="-165.1" x2="-96.348" y2="-158.115" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.122" y1="-104.179" x2="-103.72" y2="-165.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.217" y1="-104.0024" x2="-87.122" y2="-104.179" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.262" y1="-102.235" x2="-96.348" y2="-158.115" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
