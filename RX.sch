@@ -22173,7 +22173,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="-149.86" y="93.98"/>
 <label x="-142.24" y="101.6" size="1.778" layer="95" rot="R180"/>
 <label x="-144.78" y="99.06" size="1.778" layer="95"/>
-</segment>
+<!-- </segment> -->
 <segment>
 <pinref part="C23" gate="G$1" pin="-"/>
 <wire x1="-236.22" y1="10.16" x2="-236.22" y2="17.78" width="0.1524" layer="91"/>
